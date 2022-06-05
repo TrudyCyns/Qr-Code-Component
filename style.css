@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:400,700);
+
+/* Main Styles. */
+* {
+   box-sizing: border-box; 
+   margin: 0;
+   padding: 0;
+}
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 20px;
+}
+.container {
+    width: 351px;
+}
+h5 {
+    font-weight: 700;
+}
+.card {
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
+}
+.card-img-top {
+    border-radius: 10px;
+}
+
+/* footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
